@@ -44,7 +44,7 @@ export default function Nav() {
 						</Link>
 					</li> */}
 					{/* <li className="ml-auto"> */}
-					<li className="hidden lg:flex justify-end items-center ml-auto gap-3">
+					<li className="flex justify-end items-center ml-auto gap-3">
 						<Link href={whitepaper}>
 							<a className="btn-colored" target="_blank">
 								Whitepaper
@@ -55,7 +55,7 @@ export default function Nav() {
 						</Link> */}
 					</li>
 					{/* </li> */}
-					<Menu className="lg:hidden" right>
+					{/* <Menu className="lg:hidden" right>
 						<div className="menu-chunk">
 							<Link href={roadmap}>
 								<a className="btn-normal menu-item" target="_blank">
@@ -84,7 +84,7 @@ export default function Nav() {
 								<a className="btn-filled menu-item">Play</a>
 							</Link>
 						</div>
-					</Menu>
+					</Menu> */}
 				</nav>
 				{/* Mobile menu */}
 			</div>

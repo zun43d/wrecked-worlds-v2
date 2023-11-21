@@ -23,28 +23,26 @@ export default function Home() {
 						<Nav />
 
 						<div className=" ">
-							<div className="h-max max-w-6xl mx-auto xl:h-screen flex flex-col justify-evenly items-center">
+							<div className="max-w-6xl mx-auto h-[90vh] md:h-screen flex flex-col justify-evenly items-center">
 								{/* <div className="mx-auto flex-col justify-between items-start"> */}
 								{/* <div className="text-left pt-8 sm:pt-14 2xl:pt-4"> */}
-								<h2 className="font-orbitron font-bold text-lg 2xl:text-4xl mx-auto w-1/2">
+								<h2 className="font-orbitron font-bold text-xl md:text-3xl lg:text-4xl mx-auto w-80 md:w-1/2 px-4">
 									<span>Welcome to</span>
 									<br />
-									<span className="block text-center text-purple-300 font-extrabold leading-tighter xl:leading-normal font-orbitron text-6xl sm:text-7xl 2xl:text-7xl py-5 drop-shadow-xl">
+									<span className="block text-center text-purple-300 font-extrabold font-orbitron text-4xl md:text-6xl 2xl:text-7xl md:py-5">
 										WRECKED WORLDS
 									</span>
-									<span className="font-orbitron 2xl:text-4xl text-right block">
-										v2.0
-									</span>
+									<span className="font-orbitron text-right block">v2.0</span>
 								</h2>
 								<div>
-									<hr className="border-t-2 border-purple-400 w-72 mx-auto my-4" />
-									<p className="text-base text-center sm:text-base xl:text-lg max-w-3xl mx-auto w-72 lg:w-full">
+									<hr className="border-t-2 border-purple-400 w-32 md:w-72 mx-auto my-4" />
+									<p className="text-base text-center sm:text-base xl:text-lg max-w-3xl mx-auto px-10 w-full">
 										Unleash the power of automated mining, amass riches
 										effortlessly. Conquer challenges with extra bounties, claim
 										incredible rewards. Elevate your gameplay with unique NFT
 										designs, crafting your digital identity.
 									</p>
-									<hr className="border-t-2 border-purple-400 w-48 mx-auto my-4" />
+									<hr className="border-t-2 border-purple-400 w-16 md:w-48 mx-auto my-4" />
 								</div>
 								{/* </div> */}
 
@@ -66,7 +64,7 @@ export default function Home() {
 					</div>
 
 					<div
-						className="bg-black pt-24 lg:pt-36 2xl:pt-24 pb-16 px-10 snap-center"
+						className="bg-black pt-10 lg:pt-36 2xl:pt-24 pb-16 px-10 snap-center"
 						id="story"
 					>
 						<div className="max-w-5xl mx-auto">
