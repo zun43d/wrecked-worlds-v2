@@ -9,6 +9,7 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
+		"@fontsource-variable/orbitron": "^5.0.17",
 		"@fontsource/cinzel": "^4.5.9",
 		"@fontsource/inter": "^4.5.12",
 		"@fontsource/merriweather": "^4.5.14",

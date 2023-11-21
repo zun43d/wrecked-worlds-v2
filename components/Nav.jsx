@@ -8,28 +8,27 @@ import { elastic as Menu } from 'react-burger-menu'
 
 export default function Nav() {
 	return (
-		<header className="w-full fixed top-0 left-1/2 -translate-x-1/2 z-50 max-w-7xl sm:max-w-6xl mx-auto pt-6">
-			<div className="h-20 flex justify-center items-center px-5 border-[1px] border-orange-300/30 bg-slate-900/50 backdrop-blur-3xl rounded-xl mx-3 lg:mx-0">
-				<nav className="w-full list-none grid grid-cols-3 items-center font-bold text-sm font-merriweather">
+		<header className="w-full  max-w-7xl sm:max-w-6xl mx-auto pt-6">
+			<div className="h-20 flex justify-center items-center px-5 mx-3 lg:mx-0">
+				<nav className="w-full list-none grid grid-cols-2 items-center font-bold text-base font-orbitron">
 					<li className="">
 						<Link href="/">
 							<a className="flex items-center w-48 sm:w-56">
-								<Image
+								{/* <Image
 									className="undrag"
 									draggable="false"
 									src="/logo.png"
 									alt="Wrecked Worlds"
 									width={90}
 									height={47.8125}
-								/>
-								<h1 className="text-lg leading-none font-bold text-white px-5 font-cinzel -ml-4 sm:-ml-2">
-									Wrecked <br />
-									Worlds
+								/> */}
+								<h1 className="text-2xl leading-none font-bold text-white px-5 font-orbitron -ml-4 sm:-ml-2">
+									Wrecked Worlds
 								</h1>
 							</a>
 						</Link>
 					</li>
-					<li className="hidden lg:flex justify-between max-w-sm">
+					{/* <li className="hidden lg:flex justify-between max-w-sm">
 						<Link href={roadmap}>
 							<a className="btn-normal" target="_blank">
 								Roadmap
@@ -43,7 +42,7 @@ export default function Nav() {
 						<Link href="/team">
 							<a className="btn-normal">Team Info</a>
 						</Link>
-					</li>
+					</li> */}
 					{/* <li className="ml-auto"> */}
 					<li className="hidden lg:flex justify-end items-center ml-auto gap-3">
 						<Link href={whitepaper}>
@@ -51,9 +50,9 @@ export default function Nav() {
 								Whitepaper
 							</a>
 						</Link>
-						<Link href="https://play.wreckedworlds.com/">
-							<a className="btn-filled" /*onClick={gameToast}*/>Start Game</a>
-						</Link>
+						{/* <Link href="https://play.wreckedworlds.com/">
+							<a className="btn-filled">Play</a>
+						</Link> */}
 					</li>
 					{/* </li> */}
 					<Menu className="lg:hidden" right>
@@ -82,7 +81,7 @@ export default function Nav() {
 								</a>
 							</Link>
 							<Link href="https://play.wreckedworlds.com/">
-								<a className="btn-filled menu-item">Start Game</a>
+								<a className="btn-filled menu-item">Play</a>
 							</Link>
 						</div>
 					</Menu>

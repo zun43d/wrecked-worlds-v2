@@ -18,37 +18,39 @@ export default function Home() {
 			</Head>
 
 			<div className="">
-				<main>
-					<div className="bg-[url('/bg-hero.webp')] bg-[length:105%_105%] bg-top bg-repeat-x">
+				<main className="snap-y snap-mandatory">
+					<div className="snap-start">
 						<Nav />
 
-						<div className=" bg-gradient-to-b from-transparent to-slate-900">
-							<div className="backdrop-blur-lg py-28 h-max xl:h-screen">
-								<div className="mx-auto flex-col justify-center items-center">
-									<div className="text-center pt-8 sm:pt-14 2xl:pt-48">
-										<h3 className="text-sm sm:text-lg w-72 mx-auto sm:w-auto font-normal font-merriweather tracking-wider">
-											<span className="italic">
-												&quot;Humans, how tragically destructive we are...&quot;
-											</span>
-										</h3>
-										<h2 className="font-merriweather font-bold text-lg 2xl:text-2xl mt-8 xl:mt-12">
-											<span>A new chapter of human history,</span>
-											<br />
-											<span className="block text-orange-300 font-extrabold leading-tighter xl:leading-normal font-cinzel text-6xl sm:text-7xl 2xl:text-8xl py-6 sm:py-5 drop-shadow-xl">
-												Wrecked Worlds
-											</span>
-										</h2>
-										<p className="text-base sm:text-base xl:text-lg max-w-3xl mx-auto w-72 lg:w-full">
-											An NFT based game with a well-thought-out economic model.
-											Craft tools, use resources to mine in the deepest parts of
-											the world, get exclusive rewards, and build your own
-											mining lands.
-										</p>
-									</div>
+						<div className=" ">
+							<div className="h-max max-w-6xl mx-auto xl:h-screen flex flex-col justify-evenly items-center">
+								{/* <div className="mx-auto flex-col justify-between items-start"> */}
+								{/* <div className="text-left pt-8 sm:pt-14 2xl:pt-4"> */}
+								<h2 className="font-orbitron font-bold text-lg 2xl:text-4xl mx-auto w-1/2">
+									<span>Welcome to</span>
+									<br />
+									<span className="block text-center text-purple-300 font-extrabold leading-tighter xl:leading-normal font-orbitron text-6xl sm:text-7xl 2xl:text-7xl py-5 drop-shadow-xl">
+										WRECKED WORLDS
+									</span>
+									<span className="font-orbitron 2xl:text-4xl text-right block">
+										v2.0
+									</span>
+								</h2>
+								<div>
+									<hr className="border-t-2 border-purple-400 w-72 mx-auto my-4" />
+									<p className="text-base text-center sm:text-base xl:text-lg max-w-3xl mx-auto w-72 lg:w-full">
+										Unleash the power of automated mining, amass riches
+										effortlessly. Conquer challenges with extra bounties, claim
+										incredible rewards. Elevate your gameplay with unique NFT
+										designs, crafting your digital identity.
+									</p>
+									<hr className="border-t-2 border-purple-400 w-48 mx-auto my-4" />
+								</div>
+								{/* </div> */}
 
-									<div className="flex flex-col lg:flex-row justify-center items-center gap-5 my-12">
+								{/* <div className="flex flex-col lg:flex-row justify-center items-center gap-5 my-12">
 										<Link href="https://play.wreckedworlds.com/">
-											<a className="btn-filled px-8" /*onClick={gameToast}*/>
+											<a className="btn-filled px-8">
 												Play Now
 											</a>
 										</Link>
@@ -57,75 +59,112 @@ export default function Home() {
 												Read Story
 											</a>
 										</Link>
-									</div>
-								</div>
+									</div> */}
+								{/* </div> */}
 							</div>
 						</div>
 					</div>
 
 					<div
-						className="bg-slate-900 pt-24 lg:pt-36 2xl:pt-24 pb-16 px-10"
+						className="bg-black pt-24 lg:pt-36 2xl:pt-24 pb-16 px-10 snap-center"
 						id="story"
 					>
 						<div className="max-w-5xl mx-auto">
-							<h2 className="text-center text-5xl font-merriweather">
-								Peek into the history
+							<h2 className="text-center text-5xl font-bold font-orbitron text-purple-300">
+								Gameplay
 							</h2>
-							<p className="text-center pt-5 text-orange-300 text-md italic max-w-2xl mx-auto">
-								&quot;Human use, population and technology have reached that
-								certain stage where mother Earth no longer accepts our presence
-								with silence&quot;
+							<p className="text-center text-base py-6">
+								Hold onto your helmets, Wrecked Worlds aficionados! The 2.0
+								update is not just about gameplay — it&apos;s about showering
+								our valiant players with rewards that will send shockwaves
+								through the gaming cosmos. Get ready for an exhilarating ride as
+								we unveil two groundbreaking passes that will elevate your
+								Wrecked Worlds experience to unprecedented heights!
 							</p>
 
 							<div className="flex-col py-10">
+								<div className="flex justify-center items-center mb-8 h-">
+									<Image
+										className="undrag"
+										draggable="false"
+										src="/bounty.png"
+										alt="Bounty Cards"
+										width={800}
+										height={669}
+									/>
+								</div>
 								<div className="mx-auto pb-10">
-									<h3 className="text-2xl font-semibold font-merriweather">
-										Year 3055 AD
-									</h3>
+									<h2 className="text-2xl font-semibold font-orbitron">
+										Bounty NFT Bonanza:
+									</h2>
 									<br />
 									<p>
-										Different nation of the world was fighting for their
-										so-called peace. Technology was at its peak and weapons were
-										more powerful than ever. The time was 3055 AD, and the world
-										was in chaos.
+										Embark on the epic journey to claim your stake in the second
+										market feast! Bounty NFTs are your ticket to the exclusive
+										club, granting a juicy 0.01% royalty for each NFT. But
+										that&apos;s not all—holding more NFTs means more liquid Wax
+										rewards pouring in from the second market fee. The cherry on
+										top? We&apos;re unleashing 1500 of these bad boys for FREE
+										minting. It&apos;s time to stake your claim and reap the
+										rewards like never before!
 									</p>
 									<br />
-									<p>
-										Nuclear power was always a threat to the world. It was
-										forbidden to use this deadly weapon. But every nation was at
-										its limit, some of them were on the brink of extinction.
-										Then one country used the forbidden power and that triggered
-										the most destructive war in the history of mankind.
-									</p>
+									<div className="flex justify-center items-center mb-8">
+										<Image
+											className="undrag"
+											draggable="false"
+											src="/retro.png"
+											alt="Retro Pass"
+											width={508.745247}
+											height={669}
+										/>
+									</div>
+									<h2 className="text-2xl font-semibold font-orbitron">
+										Retro Pass Revolution:
+									</h2>
 									<br />
 									<p>
-										As a result of the war, the world was in ruins. The world
-										was wrecked. One day in the midst of war a sudden shockwave
-										hit the earth. It disrupted the time and space itself.
-										Weirdly many things were changed. Most of the Earth&apos;s
-										valuable resources got destroyed or more like vanished! Only
-										irons and diamonds were left. And the most crucial thing,
-										soon after survivors discovered the existence of two new
-										elements in different areas.
+										For the trailblazers who stood with us in Wrecked Worlds v
+										1.0, the Retro Pass is your golden ticket to VIP status. The
+										top 50 investors, who fearlessly invested around 500 Wax,
+										will be treated to free mints, a dazzling 0.5% slice of the
+										second market royalty, and a Level 1 whitelist for future
+										sales. But wait, there&apos;s more—a whopping 50% discount
+										on each purchase! It&apos;s not just a pass; it&apos;s a
+										legacy.
 									</p>
 									<br />
-									<p>
-										Seems like they derived from the use of nuclear and
-										radiation of different elements. Survivors named them{' '}
-										<span className="highlight">Wradium</span> &{' '}
-										<span className="highlight">Wrecktium</span>. After the
-										extinction of Radium, Uranium, and many other valuable
-										materials, everyone found out that they could use these new
-										elements to do everything. They can even rebuild their lost
-										technology in the war.
-									</p>
+									<div className="flex justify-center items-center mb-8">
+										<Image
+											className="undrag"
+											draggable="false"
+											src="/premium.png"
+											alt="Premium Pass"
+											width={508.745247}
+											height={669}
+										/>
+									</div>
+									<h2 className="text-2xl font-semibold font-orbitron">
+										Premium Pass Prestige:
+									</h2>
 									<br />
 									<p>
-										Survivors started mining for more of those materials. Some
-										of them were using these to build new items. Human
-										civilization started its journey toward the future once
-										again. This was the beginning of the mining era of the
-										Wrecked World.
+										For those hungry for the ultimate VIP treatment, we present
+										the Premium Pass—a coveted key to the elite realm. Only 200
+										passes will be sold, each unlocking a 0.3% royalty share,
+										and a Level 1 whitelist for future sales. Join the ranks of
+										the privileged few who command the finest perks in Wrecked
+										Worlds.
+									</p>
+									<br />
+									<br />
+									<p>
+										The 2.0 update is not just an evolution; it&apos;s a
+										revolution in rewards. Brace yourselves for a tsunami of
+										excitement, exclusive perks, and unparalleled adventure as
+										we unleash these passes into the Wrecked Worlds universe.
+										Are you ready to seize the future and claim your place among
+										the gaming elite? The countdown begins now!
 									</p>
 									<br />
 									<br />
@@ -137,6 +176,7 @@ export default function Home() {
 
 				<Footer />
 			</div>
+			<hr className="border-purple-400 border-t-4" />
 		</div>
 	)
 }

@@ -10,7 +10,11 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				sans: ['Inter', ...defaultTheme.fontFamily.sans],
-				orbitron: ['Orbitron', 'Inter', ...defaultTheme.fontFamily.sans],
+				orbitron: [
+					'Orbitron Variable',
+					'Inter',
+					...defaultTheme.fontFamily.sans,
+				],
 				cyberway: ['Cyberway', 'Inter', ...defaultTheme.fontFamily.sans],
 				merriweather: [
 					'Merriweather',

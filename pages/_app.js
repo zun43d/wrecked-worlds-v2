@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import '@fontsource/inter'
 import '@fontsource/merriweather'
 import '@fontsource/cinzel/800.css'
+import '@fontsource-variable/orbitron'
 import '../styles/burger.css'
 
 function MyApp({ Component, pageProps }) {

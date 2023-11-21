@@ -4,9 +4,9 @@ import { discord, twitter } from '../data'
 
 export default function Footer() {
 	return (
-		<footer className="bg-slate-900">
+		<footer className="bg-black">
 			<div className="max-w-6xl mx-auto mb-8 lg:mb-10">
-				<div className="mx-5 xl:mx-0 py-10 px-8 sm:px-10 bg-slate-800 rounded-xl flex flex-col-reverse lg:flex-row justify-between items-start lg:items-center">
+				<div className="mx-5 xl:mx-0 py-10 px-8 sm:px-10 flex flex-col-reverse lg:flex-row justify-between items-start lg:items-center">
 					<div>
 						<div className="flex justify-start items-center gap-2 pb-6 lg:pb-4">
 							<div className="rounded-full bg-[#7289d9] p-2">
@@ -45,7 +45,7 @@ export default function Footer() {
 						</div>
 					</div>
 					<div className="text-left lg:text-right pb-8 lg:pb-0">
-						<p className="font-cinzel text-2xl sm:text-3xl lg:text-4xl">
+						<p className="font-orbitron font-semibold text-2xl sm:text-3xl lg:text-4xl">
 							Wrecked Worlds
 						</p>
 						<p className="text-sm sm:text-base text-white/50">
