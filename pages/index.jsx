@@ -124,8 +124,8 @@ export default function Home() {
 									<p>
 										For the trailblazers who stood with us in Wrecked Worlds v
 										1.0, the Retro Pass is your golden ticket to VIP status. The
-										top 50 investors, who fearlessly invested around 500 Wax,
-										will be treated to free mints, a dazzling 0.5% slice of the
+										top 50 investors, who fearlessly invested around $10, will
+										be treated to free mints, a dazzling 0.5% slice of the
 										second market royalty, and a Level 1 whitelist for future
 										sales. But wait, there&apos;s more—a whopping 50% discount
 										on each purchase! It&apos;s not just a pass; it&apos;s a
