@@ -9,13 +9,13 @@ export default function Footer() {
 				<div className="mx-5 xl:mx-0 py-10 px-8 sm:px-10 flex flex-col-reverse lg:flex-row justify-between items-start lg:items-center">
 					<div>
 						<div className="flex justify-start items-center gap-2 pb-6 lg:pb-4">
-							{/* <div className="rounded-full bg-[#7289d9] p-2">
+							<div className="rounded-full bg-[#7289d9] p-2">
 								<Link href={discord}>
 									<a target="_blank">
 										<FaDiscord size="20" color="white" />
 									</a>
 								</Link>
-							</div> */}
+							</div>
 							<div className="rounded-full bg-[#00acee] p-2">
 								<Link href={twitter}>
 									<a target="_blank">
